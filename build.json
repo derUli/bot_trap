@@ -1,0 +1,11 @@
+{
+	"id": "bot_trap",
+	"version": "1.0",
+	"description": "Trap for bad Bots",
+	"categories": [
+		"admin",
+		"security"
+	],
+	"compatible_from": "2018.3",
+	"dependencies": []
+}

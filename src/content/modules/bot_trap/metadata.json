@@ -1,0 +1,18 @@
+{
+	"version": "1.0",
+	"source": "extend",
+	"embed": false,
+	"shy": false,
+	"main_class": "BotTrapController",
+	"controllers": {
+		"BotTrapController": "controllers/BotTrapController.php"
+	},
+	"controller_function_permissions": {
+		"BotTrapController::saveSettingsPost": "bot_trap_settings"
+	},
+	"custom_acl": [
+		"bot_trap",
+		"bot_trap_settings"
+	],
+	"admin_permission": "bot_trap"
+}
