@@ -12,3 +12,7 @@ Every serious bot ignores the link because it is listed in robots.txt.
 If a bot follows the link it is detected as a bad bot.
 bot_trap add it's ip address to a list.
 Any future request from this ip are getting blocked.
+
+## Requirements
+
+* UliCMS 2018.3 or later
