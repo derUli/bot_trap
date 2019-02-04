@@ -29,7 +29,7 @@ Disallow: /?trap_me=1</pre>
 <?php ?>
 <?php if($acl->hasPermission("bot_trap_settings")){?>
 <p class="voffset3">
-	<button type="submit" class="btn btn-primary"><?php translate("save");?></button>
+	<button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> <?php translate("save");?></button>
 </p>
 <?php }?>
 <?php echo ModuleHelper::endForm();?>
